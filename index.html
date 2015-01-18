@@ -1,50 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="AVR LCD : LCD module derive by Ayman Younis">
+    <title>AVR LCD by aymanyounis</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>AVR LCD</title>
   </head>
-
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/aymanyounis/AVR_LCD_Libraries">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/aymanyounis/AVR_LCD_Libraries/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/aymanyounis/AVR_LCD_Libraries/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/aymanyounis/AVR_LCD_Libraries">View on GitHub</a>
+    <div class="wrapper">
 
-          <h1 id="project_title">AVR LCD</h1>
-          <h2 id="project_tagline">LCD module derive by Ayman Younis</h2>
+      <section>
+        <div id="title">
+          <h1>AVR LCD</h1>
+          <p>LCD module drive</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/aymanyounis">aymanyounis</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/aymanyounis/AVR_LCD_Libraries/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/aymanyounis/AVR_LCD_Libraries/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
         <h4>
 <a id="these-files-contain-the-lcd-module-drive-basic-routines-for-interfacing-a-text-lcd-display-with-any-avr-device" class="anchor" href="#these-files-contain-the-lcd-module-drive-basic-routines-for-interfacing-a-text-lcd-display-with-any-avr-device" aria-hidden="true"><span class="octicon octicon-link"></span></a><em><strong>These files contain the LCD module drive, Basic routines for interfacing a text lcd display with any AVR device</strong></em>
 </h4>
 
-<p><img src="http://i.imgur.com/o42DzPB.jpg" alt="IMG"></p>
+<p><strong>DATE CREATED</strong>: </p>
 
-<p><strong>DATE CREATED</strong>: 18/1/2015</p>
+<blockquote>
+<ul>
+<li><em>18/1/2015</em></li>
+</ul>
+</blockquote>
 
-<p><strong>Software</strong>: AVR-GCC 3.4.1057, Atmel Studio 6 (Version: 6.2.1153)</p>
+<p><strong>Software</strong>: </p>
 
-<p><strong>Target</strong>: Any AVR device</p>
+<blockquote>
+<ul>
+<li><em>AVR-GCC 3.4.1057, Atmel Studio 6 (Version: 6.2.1153)</em></li>
+</ul>
+</blockquote>
+
+<p><strong>Target</strong>: </p>
+
+<blockquote>
+<ul>
+<li><em>Any AVR device</em></li>
+</ul>
+</blockquote>
 
 <p><strong>DESCRIPTION</strong>:</p>
 
+<blockquote>
 <ul>
 <li>Originally based on <strong><em>Peter Fleury's lcd library</em></strong>,</li>
 <li>
@@ -52,48 +76,42 @@
 <li>
 <strong>Added</strong>: improved and optimized code.</li>
 </ul>
-
-<p>`
-    This is code;</p>
-
-<pre><code>This is code;
-
-This is code;
-
-This is code;
-
-This is code;
-</code></pre>
-
-<p>`</p>
-
-<blockquote>
-<p><strong>DESCRIPTION</strong>:<br>
-This file contains the lcd module header file, Basic routines for interfacing a text lcd display. Originally based on <strong><em>Peter Fleury's lcd library</em></strong>,
-<strong>Changed/Added</strong>: configure each pin from data and control pins as individual (Define Any Port and Any Pin number),
-<strong>Added</strong>: improved and optimized code.</p>
 </blockquote>
 
-<p><code>this is 1st
-2nd line code</code><br>
-[Options]: </p>
+<p><strong>Options</strong>: </p>
 
+<blockquote>
 <ul>
 <li>Library can be operated in 4-bit IO port mode (LCD_IO_MODE=4) or 8-bit IO port mode (LCD_IO_MODE=8),</li>
-<li>* You can connect the data/control bins at any port and any pin number, each from its individual define</li>
+<li>You can connect the data/control bins at any port and any pin number, each from its individual define</li>
 </ul>
+</blockquote>
+
+<p><strong>Files</strong>: </p>
+
+<blockquote>
+<p><code>**LCD files**</code></p>
+
+<ul>
+<li>1. <em>lcd.h</em>
+</li>
+<li>2. <em>lcd.c</em>
+</li>
+</ul>
+
+<p><code>**DIO files**</code></p>
+
+<ul>
+<li>1. <em>dio.h</em>
+</li>
+<li>2. <em>dio.c</em>
+</li>
+</ul>
+</blockquote>
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">AVR LCD maintained by <a href="https://github.com/aymanyounis">aymanyounis</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
     </div>
-
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
-
   </body>
 </html>
