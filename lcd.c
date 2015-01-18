@@ -1,6 +1,6 @@
 /* --------------------------------------------------------------------------------------------------
 [Title]	:			<LCD library, HD44780U Module>
-[FILE NAME]:		<lcd.h>
+[FILE NAME]:		<lcd.c>
 [AUTHOR(S)]:		<Ayman Younis>
 *					https://github.com/aymanyounis
 *					http://aymanyounis.github.io/AVR_LCD_Libraries/
