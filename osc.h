@@ -14,7 +14,6 @@
 #define F_CPU 1000000UL
 #endif
 
-#include <avr/interrupt.h>
 #include <util/delay.h>
 
 #endif /*osc.h*/
