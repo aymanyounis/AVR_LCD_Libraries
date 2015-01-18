@@ -20,27 +20,40 @@
 > * You can connect the data/control bins at any port and any pin number, each from its individual define
 
 **Files**: 
-
 **NOTE**: _You have to download all these files and just include the lcd.h to your project _
+
 > `**LCD files**`
-> * 1. _lcd.h_
-> * 2. _lcd.c_
+> * 1. _[lcd.h](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/lcd.h)_
+> * 2. _[lcd.c](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/lcd.c)_
 
 > `**DIO files**`
-> * 1. _dio.h_
-> * 2. _dio.c_
+> * 1. _[dio.h](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/dio.h)_
+> * 2. _[dio.c](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/dio.c)_
+
+> `**Test APP files**`
+> * 1. _[lcd_test_app.c](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/lcd_test_app.c)_
 
 > `**Other files**`
-> * 1. _common_macro.h_
-> * 2. _std_type.h_
-> * 3. _peripheral_reg.h_
-> * 4. _osc.h_
+> * 1. _[common_macro.h](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/common_macro.h)_
+> * 2. _[std_type.h](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/std_type.h)_
+> * 3. _[peripheral_reg.h](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/peripheral_reg.h)_
+> * 4. _[osc.h](https://github.com/aymanyounis/AVR_LCD_Libraries/blob/master/osc.h)_
 
 > `**Proteus 7.9 simulation folder**`
-> * Feel free to check the 4-bit and 8-bit mode running on Proteus 7.9 simulation files
+> * Feel free to check the 4-bit and 8-bit mode running on Proteus 7.9 [Simulation files](https://github.com/aymanyounis/AVR_LCD_Libraries/tree/master/Simulation)
 
 ![Proteus Img](http://i.imgur.com/o6xrEL8.jpg)
 
+**Functions**:
+> * 1. _void **LCD_init** (uint8 a_cursorState);_
+> * 2. _void **LCD_sendCommand** (uint8 a_command);_
+> * 3. _void **LCD_displayCharacter** (uint8 a_dataCharacter);_
+> * 4. _void **LCD_displayString** (const uint8* a_dataString_Ptr);_
+> * 5. _void **LCD_displayStringRowColumn** (uint8 a_row, uint8 a_col, const uint8 *a_str_Ptr);_
+> * 6. _void **LCD_displayNumber** (sint32 a_data, uint8 a_base);_
+> * 7. _void **LCD_goToRowColumn** (uint8 a_row, uint8 a_col);_
+> * 8. _void **LCD_clearScreen** (void);_
+> * + other **inline **and **static **functions in lcd.c file
 
 ***
 Contacts:
