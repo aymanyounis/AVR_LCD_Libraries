@@ -87,9 +87,8 @@
 </ul>
 </blockquote>
 
-<p><strong>Files</strong>: </p>
-
-<p><strong>NOTE</strong>: _You have to download all these files and just include the lcd.h to your project _</p>
+<p><strong>Files</strong>: 
+<strong>NOTE</strong>: _You have to download all these files and just include the lcd.h to your project _</p>
 
 <blockquote>
 <p><code>**LCD files**</code></p>
@@ -131,6 +130,32 @@
 </blockquote>
 
 <p><img src="http://i.imgur.com/o6xrEL8.jpg" alt="Proteus Img"></p>
+
+<p><strong>Functions</strong>:</p>
+
+<blockquote>
+<ul>
+<li>1. <em>void <strong>LCD_init</strong> (uint8 a_cursorState);</em>
+</li>
+<li>2. <em>void <strong>LCD_sendCommand</strong> (uint8 a_command);</em>
+</li>
+<li>3. <em>void <strong>LCD_displayCharacter</strong> (uint8 a_dataCharacter);</em>
+</li>
+<li>4. <em>void <strong>LCD_displayString</strong> (const uint8* a_dataString_Ptr);</em>
+</li>
+<li>5. <em>void <strong>LCD_displayNumber</strong> (sint32 a_data, uint8 a_base);</em>
+</li>
+<li>6. <em>void <strong>LCD_displayStringRowColumn</strong> (uint8 a_row, uint8 a_col, const uint8 *a_str_Ptr);</em>
+</li>
+<li>7. <em>void <strong>LCD_displayNumber</strong> (sint32 a_data, uint8 a_base);</em>
+</li>
+<li>8. <em>void <strong>LCD_goToRowColumn</strong> (uint8 a_row, uint8 a_col);</em>
+</li>
+<li>9. <em>void <strong>LCD_clearScreen</strong> (void);</em>
+</li>
+<li>+ other *<em>inline *</em>and *<em>static *</em>functions in lcd.c file</li>
+</ul>
+</blockquote>
 
 <hr>
 
